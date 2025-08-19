@@ -1,0 +1,417 @@
+/* 1070 */
+/* 
+16, 32, 48, 64, 80, 96, 112, 128, 144, 160, 176, 192, 208, 224, 240, 256, 272, 288, 304, 320  */
+
+
+
+@media(max-width: 73em){
+    .wedding-details-ceremony{
+        flex-direction: column;
+        text-align: center; 
+    }
+
+    .wedding-details-ceremony div:nth-child(1){
+        align-self: center;
+    }
+
+    .wedding-details-heading{
+        margin-top: 8rem;
+    }
+
+    .wedding-rings{
+        margin-bottom: 8rem;
+    }
+}
+
+@media(max-width:67em){
+    .wedding-details-ceremony{
+        gap: 2rem; 
+    }
+    .wedding-details-heading{
+        font-size:6.5rem;
+    }
+    .wedding-details{
+        font-size: 2rem;
+    }
+}
+
+/* 1200 */
+@media(max-width: 62em){
+    .main-content{
+        width: 80%   }
+    .our-story-title-1{
+        font-size: 6.4rem;
+    }
+    .our-story-title-2{
+        font-size: 12.2rem;
+    }
+}
+
+
+
+/* @media(max-width:59em){
+    .wedding-details-ceremony{
+        gap:3rem; 
+    }
+    .wedding-details-heading{
+        font-size: 5.3rem;
+    }
+    .ceremony-title-sub{
+        font-size: 1.8rem; 
+    }
+    .wedding-details{
+        font-size: 2rem;
+    }
+    .wedding-rings{
+        max-width: 90%;
+    }
+    .wedding-details-ceremony > div:nth-child(2) > div{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        }
+} */
+/* 971px */
+@media(max-width: 68em ){
+   
+    .wedding-details-heading {
+        margin-top: 15%;
+    }
+}
+/* 897px up */
+@media(max-width: 56em){
+    .wedding-details-ceremony{
+        flex-direction: column;
+        text-align: center;
+    }
+    .wedding-details-ceremony div:nth-child(1){
+        align-self: center;
+    }
+}
+
+@media(max-width: 56em){
+    .wedding-details-ceremony{
+        flex-direction: column;
+    }
+    .wedding-details-ceremony div:nth-child(1){
+   
+    text-align: center;
+    align-self: center;
+   }
+   .wedding-details-ceremony > div:nth-child(2) > div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+    .wedding-details-ceremony{
+        gap: 2rem; 
+    }
+    .wedding-details-heading{
+        font-size: 5.5rem;
+    }
+    .ceremony-title-sub{
+        font-size: 2.5rem; 
+    }
+    .wedding-details{
+        font-size: 2rem;
+    }
+    .wedding-rings{
+        max-width: 90%;
+    }
+
+@media(max-width: 54em){
+   .ceremony-title-sub{
+    font-size: 2.5rem; 
+   } 
+   .wedding-details{
+    font-size: 2.5rem; 
+   }
+}
+/* 830px */
+@media(max-width: 59em){
+    
+     .wedding-details-ceremony{
+        gap:2rem; 
+    }
+    .wedding-details-heading{
+        font-size: 6rem;
+    }
+    .ceremony-title-sub{
+        font-size: 2.5rem; 
+    }
+    .wedding-details{
+        font-size: 2rem;
+    }
+    .wedding-rings{
+        max-width: 95%;
+    }
+    .wedding-details-heading{
+        margin-top: 8rem;
+    }
+}
+
+/* 800px */
+@media(max-width: 50em){
+    body{
+        font-size: 1.8rem;
+    }
+    .standard-text{
+        line-height: 2;
+    }
+    .main-content{
+        width: 80%   }
+    .our-story-title-1{
+        font-size: 3.2rem;
+    }
+    .our-story-title-2{
+        font-size: 8rem;
+    }
+    .section-heading{
+        font-size: 9.3rem;
+    }
+    .short-message-flexbox div{
+        padding: 0 5%; 
+    }
+    .wedding-details-heading{
+        margin-top: 6rem;
+    }
+     /*  */
+    .short-message-flexbox{
+    flex-direction: column;
+    gap: 2rem;
+   }
+
+   .sample-pics-flexbox div:nth-child(1), .sample-pics-flexbox div:nth-child(2){
+    width: 100%;
+    align-items: center;
+   
+   }
+   
+}
+
+
+/* 684px */
+@media(max-width:43em){
+    .wedding-details-heading{
+        font-size: 4.5rem;
+    }
+    
+
+}
+
+@media(max-width: 49em){
+    button{
+        font-size: 1.8rem;
+    }
+}
+/* 734px */
+@media(max-width: 46rem){
+    .weddding-details-heading{
+        font-size: 6rem;
+    }
+    .ceremony-title-sub{
+        font-size: 2.5rem;
+    }
+}
+
+
+/* 671px */
+@media(max-width: 45rem){
+   .wedding-details-ceremony{
+    flex-direction: column; 
+    align-items: center;
+   }
+
+   .wedding-details-ceremony div:nth-child(1){
+   
+    text-align: center;
+    align-self: center;
+   }
+   .wedding-details-ceremony > div:nth-child(2) > div {
+        display: flex
+;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media(max-width:43rem){
+    .wedding-details-heading{
+        font-size: 6rem;
+    }
+    .ceremony-title-sub{
+        font-size: 2.5rem;
+    }
+}
+
+/* 560px */
+@media(max-width: 35em){
+    
+    .ceremony-title-sub{
+        font-size: 2rem;
+    }
+   
+    .nav-menu{
+        margin-bottom: 6rem;
+    }
+
+    .our-story-hero-text{margin-bottom: 12rem;}
+    body{
+        font-size: 1.65rem;
+    }
+     .sample-pics-flexbox{
+    flex-direction: column;
+    gap: 5rem; 
+    height: 60rem;
+    
+   }
+    .sample-pics-flexbox div:nth-child(1), .sample-pics-flexbox div:nth-child(2){
+    display: flex;
+    align-items: center;
+  
+    width: 100%;
+   }
+
+    .hero-img{
+        margin-bottom: 9rem;
+    }
+    .section-heading{
+    font-size: 9rem;
+   }
+
+   .short-message-flexbox{
+    margin-bottom: 7rem;
+   }
+   .sample-pics-flexbox div:nth-child(2){
+    justify-content: flex-start;
+    height: 100%;
+   }
+
+  .wedding-details{
+    font-size: 1.8rem;
+  }
+
+  .page-heading{
+    font-size: 6rem;
+  }
+   
+   
+  
+}
+
+/* 530px */
+@media(max-width: 33em){
+    body{
+        font-size: 1.6rem;
+    }
+
+    .standard-text{
+        line-height: 2; 
+    }
+
+   .section-heading{
+    font-size: 6rem;
+   }
+   .vow-heading{
+    font-size: 3.5rem;
+   }
+   .vow-text-container{
+     width: 80%; 
+     margin: 0 auto;
+   }
+   .vow-text, .vow-text-extra{
+     line-height: 1.7;
+        text-align: justify; 
+   }
+
+    .our-story-invitation-text-location, .countdown-minutes-to-secs{
+    display: block;
+   }
+   .our-story-invitation-text-dot{
+    display: none;
+   }
+   .our-story-invitation-text{
+    display:flex; 
+    flex-direction: column;
+    gap: 2rem;
+    
+   }
+
+   .our-story-invitation-text p{
+    line-height: 2;
+   }
+
+   .plus, .miriam{
+    display: block; 
+   }
+
+  
+
+   .glimpse-heading{
+    margin-bottom: 3.5rem;
+   }
+
+  
+
+   .sample-pics-flexbox div:nth-child(1), .sample-pics-flexbox div:nth-child(2){
+    display: flex;
+    align-items: center;
+  
+    width: 100%;
+   }
+
+   .sample-pics-flexbox div:nth-child(1){
+    justify-content: flex-end;
+    height: 100%;
+   }
+.sample-pics-flexbox div:nth-child(2){
+    justify-content: flex-start;
+    height: 100%;
+   }
+
+
+   
+  
+}
+
+
+/* 430px */
+@media(max-width: 27em){
+   
+   .page-heading{
+    font-size: 5rem;
+   }
+
+   .ceremony-title-sub{
+    font-size: 1.6rem;
+   }
+  
+   .vow-text, .vow-text-extra{
+     line-height: 2;
+        text-align: justify; 
+   }
+   .our-story-invitation-text-location, .countdown-minutes-to-secs{
+    display: block;
+   }
+   .our-story-invitation-text-dot{
+    display: none;
+   }
+   .our-story-invitation-text{
+    display:flex; 
+    flex-direction: column;
+    gap: 2rem;
+   }
+
+   .our-story-hero-text{
+    display: flex;
+    flex-direction: column;
+  
+   gap:5rem;
+   }
+
+   
+  
+}
+
+
