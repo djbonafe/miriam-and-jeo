@@ -206,7 +206,7 @@
     }
 }
 /* 734px */
-@media(max-width: 46rem){
+@media(max-width: 46em){
     .weddding-details-heading{
         font-size: 6rem;
     }
@@ -217,7 +217,7 @@
 
 
 /* 671px */
-@media(max-width: 45rem){
+@media(max-width: 45em){
    .wedding-details-ceremony{
     flex-direction: column; 
     align-items: center;
@@ -236,7 +236,7 @@
     }
 }
 
-@media(max-width:43rem){
+@media(max-width:43em){
     .wedding-details-heading{
         font-size: 6rem;
     }
@@ -245,8 +245,19 @@
     }
 }
 
+@media(max-width: 39em){
+    .form-box{
+        width: 48rem; 
+    }
+}
+
+
+
 /* 560px */
 @media(max-width: 35em){
+        form-box{
+        width: 43rem; 
+    }
     
     .ceremony-title-sub{
         font-size: 2rem;
@@ -302,6 +313,12 @@
 
 /* 530px */
 @media(max-width: 33em){
+    .logo{
+        font-size: 2rem;
+    }
+    .form-box{
+        width: 38rem; 
+    }
     body{
         font-size: 1.6rem;
     }
@@ -375,6 +392,12 @@
   
 }
 
+@media(max-width: 31em){
+    .form-box{
+        width: 35rem; 
+    }
+}
+
 
 /* 430px */
 @media(max-width: 27em){
@@ -408,6 +431,54 @@
     flex-direction: column;
   
    gap:5rem;
+   }
+
+
+   @media(max-width: 25em){
+    .form-box{
+        width: 28rem; 
+        padding: 4rem 5rem; 
+    }
+    button, label{
+        font-size: 1.7rem;
+    }
+
+   }
+
+   @media(max-width: 18em){
+    .form-box{
+        width: 20rem; 
+        font-size: 1rem;
+    }
+    button, label{
+        font-size: 1rem;
+    }
+
+    input{
+        height: 2.5rem; 
+        border-radius: 1rem;
+    }
+
+    .special-request-input{
+        height: 10rem; 
+        font-size: 1rem; 
+    }
+
+    .form-box{
+        padding: 2rem; 
+    }
+
+    .rsvp-header{
+        margin-bottom: 2rem;
+        font-size: 2.5rem;
+    }
+    .nav-menu{
+        margin-bottom: 3rem; 
+    }
+
+    .nav-list{
+        width: 15rem;
+    }
    }
 
    

@@ -33,9 +33,13 @@ export default function NavBar() {
         <li className="nav-link" onClick={closeMenu}>
           <Link to="/WeddingDetails">Wedding Details</Link>
         </li>
+         <li className="nav-link" onClick={closeMenu}>
+          <Link to="/Entourage">Entourage</Link>
+        </li>
         <li className="nav-link" onClick={closeMenu}>
           <Link to="/RSVP">RSVP</Link>
         </li>
+        
         <li className="nav-link" onClick={closeMenu}>
           <Link to="/Gallery">Gallery</Link>
         </li>

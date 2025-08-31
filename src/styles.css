@@ -161,9 +161,13 @@ header {
 .hero-img {
   height: 40rem;
   width: 80%;
-  background-color: #ecde86;
+  /* background-color: #ecde86; */
   margin: 0 auto;
   margin-bottom: 15rem;
+  display: flex;
+  justify-content: center; /* horizontal center */
+  align-items: center;     /* vertical center */
+  overflow: hidden;
 }
 
 .section-heading {
@@ -194,7 +198,10 @@ header {
 }
 
 .sample-pics-flexbox {
-  display: flex;
+    display: flex;
+  justify-content: center; /* horizontal center */
+  align-items: center;     /* vertical center */
+  overflow: hidden;
   gap: 2rem;
   margin-bottom: 15rem;
 }
@@ -218,7 +225,10 @@ header {
 }
 
 .sample-pics-flexbox div div:nth-child(1) {
-  background: #ecde86;
+  display: flex;
+  justify-content: center; /* horizontal center */
+  align-items: center;     /* vertical center */
+  overflow: hidden;
   height: 70%;
   width: 80%;
 }
@@ -347,7 +357,7 @@ header {
 }
 
 
-.events-overview-heading {
+.events-overview-heading, .wedding-timeline-heading {
   margin-bottom: 9.6rem;
 }
 
@@ -693,5 +703,172 @@ button {
 } */ 
 
 
+/* ---------------------- Wedding Timeline ----------------------*/
+.wedding-timeline{
+  margin: 0 auto; 
+  width: 80%;
+  height: auto; 
+  margin-bottom: 14.4rem;
+}
+
+.wedding-timeline-heading, .attire-heading{
+  color: #5b524a;
+  font-weight: bold;
+  font-size: 4.8rem; 
+}
+
+#reception{
+  margin-bottom: 14.4rem;
+}
+
+.wt-icons-flexbox, .wt-labels-flexbox{
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+  margin-bottom: 9.6rem;
+}
+.wt-labels-flexbox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  margin-bottom: 9.6rem;
+}
+
+.wt-timeline-grid{
+  display: grid; 
+  grid-template-columns: repeat(6, 1fr);
+  gap: 5rem; 
+  justify-content: center; 
+  align-content: center; 
+}
+
+.track-line-container{
+   display: grid;
+   grid-template-columns: repeat(6, 1fr);
+  /* align-items: center; */
+   /* justify-content: space-around; */
+  grid-column: 1 / -1; 
+  position: relative; 
+  height: 4px; 
+  background-color: #5b524a; 
+  align-self: center;
+}
 
 
+
+
+.circle {
+  width: 20px;
+  height: 20px;
+  background: white;
+  border: 3px solid #5b524a;
+  border-radius: 50%;
+  box-shadow: 0 0 0 2px #ccc;
+  position: absolute; /* hang on the track */
+  top: 50%;           /* center vertically on the line */
+  transform: translateY(-50%); /* perfect vertical centering */
+}
+.inner-circles{
+  left: 50%; transform: translate(-50%, -50%);
+  display: flex; 
+  grid-column: 2/ 5;
+  flex-direction: row;
+}
+
+.circle:nth-child(2) { right: 0%; }
+.wt-icon-box, .wt-label-box {
+  width: 70%;      /* flexbox child width */
+  height: 100%;     /* optional if you want a fixed height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}   
+
+.wt-icon-box{
+  margin: 0 auto; 
+}
+
+.wt-label-box{
+  width: 100%; 
+}
+
+
+.wt-icon {
+  width: 100%;      /* fills the container */
+  height: auto;     /* keeps aspect ratio */
+    fill: #5b524a; /* changes the color */
+}
+
+.attire-definition{
+  width: 80%; 
+  margin: 0 auto;
+  }
+
+.attire-shades-flexbox{
+  display: grid;
+  gap: 3rem; 
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, auto);
+}
+
+.attire-shades-flexbox div:nth-child(1) {
+  background-color: #f7e7ce;
+  aspect-ratio: 1; /* makes height equal width */
+}
+
+.attire-shades-flexbox div:nth-child(2) {
+  background-color: #c2b280;
+  aspect-ratio: 1; /* makes height equal width */
+}
+
+
+.attire-shades-flexbox div:nth-child(3) {
+  background-color: #fad6a5;
+  aspect-ratio: 1; /* makes height equal width */
+}
+
+.attire-shades-flexbox div:nth-child(4) {
+  background-color: #f1dddf;
+  aspect-ratio: 1; /* makes height equal width */
+}
+
+.attire-shades-flexbox div:nth-child(5) {
+  background-color: #fad6a5;
+  aspect-ratio: 1; /* makes height equal width */
+}
+
+.attire-shades-flexbox div:nth-child(6) {
+  background-color: #f7e4ca;
+  aspect-ratio: 1; /* makes height equal width */
+}
+
+.attire-shades-flexbox div:nth-child(7) {
+  background-color: #f3e5ca;
+  aspect-ratio: 1; /* makes height equal width */
+}
+
+.attire-shades-flexbox div:nth-child(8) {
+  background-color: #f3e5ab;
+  aspect-ratio: 1; /* makes height equal width */
+}
+
+.attire-shades-flexbox div:nth-child(9) {
+  background-color: #f9f0df;
+  aspect-ratio: 1; /* makes height equal width */
+}
+
+.attire-shades-flexbox div:nth-child(10) {
+  background-color: #f2e2c9;
+  aspect-ratio: 1; /* makes height equal width */
+}
+.attire-definition{
+  margin-bottom: 5rem;
+}
+
+.attire-section{
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 15rem;
+}

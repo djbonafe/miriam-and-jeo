@@ -6,6 +6,7 @@ import AttendanceConfirmation from "./pages/RSVP";
 import Login from "./components/Login";
 import Gallery from "./pages/Gallery";
 import WeddingDetails from "./pages/WeddingDetails";
+import WeddingEntourage from "./pages/WeddingEntourage";
 import "./styles.css";
 import "./queries.css"; 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -27,6 +28,7 @@ function App() {
           <Route path="/Gallery" element={<Gallery />} />
           <Route path="/RSVP" element={<RSVP />} />
           <Route path="/Login" element={<Login/>}/>
+          <Route path="/Entourage" element={<WeddingEntourage/>}/>
         </Route>
       </Routes>
     </Router>

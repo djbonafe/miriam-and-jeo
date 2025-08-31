@@ -6,20 +6,16 @@ export default function Vow() {
       <h2 className="vow-heading">For Better or for Worse</h2>
       <div className="vow-text-container">
       <p className="standard-tex vow-text">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam error
-        eveniet veritatis{" "}
-        <strong>a hic ex, maxime ratione tempora eligendi</strong> accusantium
-        sit consequatur, tenetur doloribus cum unde maiores et blanditiis quo
-        quos voluptatibus voluptas. Expedita sapiente eum ab repellendus amet
-        voluptas.
+        <strong>For better or for worse, I promise to be your favorite cup of coffee on sleepy mornings,</strong> your shoulder during stormy nights, and your partner in every laugh, every adventure, and every quiet moment in between.
+       
       </p>
 
       <p className="vow-text-extra">
-        Lorem ipsum,{" "}
+        And when the brew of life runs strong or bitter. 
         <strong>
-          <em>dolor sit amet consectetur</em>
+          <em> I vow to savor every sip</em>
         </strong>{" "}
-        adipisicing elit. Aperiam, quos.
+        with you.
       </p>
       </div>
     </div>
