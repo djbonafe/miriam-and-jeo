@@ -872,3 +872,62 @@ button {
   margin: 0 auto;
   margin-bottom: 15rem;
 }
+
+
+
+.entourage-heading{
+  font-size: 6.4rem;
+  font-weight: lighter;
+  font-family: "Birthstone Bounce", cursive;
+  /* margin-bottom: 1rem; */
+  margin: 0; 
+}
+
+.ocampo-antone, .nuptials{
+ margin: 0;
+
+}
+
+.ocampo-antone{
+  font-size: 7rem;
+}
+
+.nuptials{
+  font-size: 4rem;
+  font-weight: lighter;;
+}
+
+.entourage-heading-box{
+ margin-bottom: 10rem;
+}
+
+
+.best-honor-box, .party-box {
+  display: flex;
+  justify-content: center;
+  gap: 15rem;
+  align-items: flex-start; /* ensures headings align at the top */
+}
+
+.best-honor-box > div,
+.party-box > div {
+  width: 25rem; /* consistent width for each column */
+  text-align: center; /* optional, can use left */
+}
+
+.best-honor-box h3,
+.party-box h3 {
+  margin-bottom: 0.5rem;
+}
+
+.entourage-header{
+  font-size: 5rem;
+}
+
+
+.bearers-box{
+  display: flex;
+  justify-content: center;
+  gap: 15rem;
+  margin-bottom: 10rem;
+}
