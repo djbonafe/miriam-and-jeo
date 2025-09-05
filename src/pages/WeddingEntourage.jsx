@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function WeddingEntourage() {
   return (
-    <div>
+    <div className='entourage-box'>
         <div className='entourage-heading-box'>
       <h1 className='entourage-heading'>The Entourage</h1>
       <h1 className='ocampo-antone'>OCAMPO - ANTONE</h1>

@@ -357,11 +357,11 @@ header {
 }
 
 
-.events-overview-heading, .wedding-timeline-heading {
+.events-overview-heading, .wedding-timeline-heading, .timeline-heading {
   margin-bottom: 9.6rem;
 }
 
-.events-overview-heading2 {
+.events-overview-heading2, .timeline-heading {
   margin-bottom: 6.4rem;
   font-size: 4.8rem; 
 }
@@ -742,7 +742,10 @@ button {
   gap: 5rem; 
   justify-content: center; 
   align-content: center; 
+  width: 100%; 
 }
+
+
 
 .track-line-container{
    display: grid;
@@ -931,3 +934,87 @@ button {
   gap: 15rem;
   margin-bottom: 10rem;
 }
+
+.gallery{
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 14.4rem;
+}
+
+.gallery-header{
+  margin-bottom: 10rem;
+  font-size: 10rem;
+}
+
+.gallery-grid{
+  display: grid; 
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 30rem);
+  gap: 5rem; 
+}
+
+
+
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(8px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.overlay-img {
+  max-width: 85vw;
+  max-height: 85vh;
+  border-radius: 1rem;
+}
+
+.gallery-square {
+  transition: transform 0.3s ease, filter 0.3s ease;
+  cursor: pointer;
+  
+}
+
+.gallery-square:hover {
+  transform: scale(1.05);
+  filter: brightness(1.1);
+  z-index: 2;
+}
+
+
+
+
+/*  */
+.timeline {
+  width: 80%; 
+  position: relative;
+  margin: 0 auto;
+  margin-bottom: 14.4rem;
+  /* margin-left: 2rem; */
+  padding-left: 0; /* keep the line flush */
+  border-left: 2px solid #5b524a; /* vertical line */
+}
+
+.event {
+  position: relative;
+  margin-bottom: 4rem;
+}
+
+.marker {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background: #5b524a;
+  border-radius: 50%;
+  
+  /* center perfectly on the line */
+  left: -7px; /* (circle width / 2) - (line width / 2) => 12/2 - 2/2 = 6-1=5px */
+  top: 0;
+}
+
+/* .wedding-timeline-container{
+  width: 80%;;
+} */

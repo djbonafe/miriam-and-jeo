@@ -2,12 +2,13 @@ import React from "react";
 import WeddingDetailsText from "../components/WeddingDetails/WeddingDetailsText";
 import WeddingDetailsImage from "../components/WeddingDetails/WeddingDetailsImage";
 import EventsOverview from "../components/WeddingDetails/EventsOverview/EventsOverview";
-import WeddingTimeline from "../components/WeddingDetails/WeddingTimeline";
+import WeddingTimeline from "../components/WeddingDetails/WeddingTimeline/WeddingTimeline";
 import Attire from "../components/WeddingDetails/Attire/Attire";
+import Faqs from "../components/WeddingDetails/Faqs";
 
 export default function WeddingDetails() {
   return (
-    <div>
+    <div >
       <section className="wedding-details-ceremony">
         <WeddingDetailsText />
         <WeddingDetailsImage />
@@ -15,9 +16,11 @@ export default function WeddingDetails() {
       <section>
         <EventsOverview />
         <WeddingTimeline/>
+       
         
       </section>
     <Attire/>
+     <Faqs/>
     </div>
   );
 }

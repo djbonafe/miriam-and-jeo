@@ -1,14 +1,14 @@
 import React from 'react'
-import {ReactComponent as WeddingRingsSvg} from '../../assets/rings-heart.svg'
-import {ReactComponent as PartySvg} from '../../assets/party.svg'
-import {ReactComponent as CameraSvg} from '../../assets/camera.svg'
-import {ReactComponent as CocktailSvg} from '../../assets/cocktail.svg'
-import {ReactComponent as DinnerSvg} from '../../assets/dinner.svg'
-import {ReactComponent as DancingSvg} from '../../assets/dancing.svg'   
+import {ReactComponent as WeddingRingsSvg} from '../../../assets/rings-heart.svg'
+import {ReactComponent as PartySvg} from '../../../assets/party.svg'
+import {ReactComponent as CameraSvg} from '../../../assets/camera.svg'
+import {ReactComponent as CocktailSvg} from '../../../assets/cocktail.svg'
+import {ReactComponent as DinnerSvg} from '../../../assets/dinner.svg'
+import {ReactComponent as DancingSvg} from '../../../assets/dancing.svg' 
 
-const WeddingTimeline = () => {
+export default function WDesktop() {
   return (
-    <div className='wedding-timeline'>
+     <div className='wedding-timeline'>
         
         <h2 className='wedding-timeline-heading'>Wedding Timeline</h2>
         <div className='wt-timeline-grid'>
@@ -58,7 +58,6 @@ const WeddingTimeline = () => {
         </div>
 
         </div>
+
   )
 }
-
-export default WeddingTimeline
